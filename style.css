@@ -1,3 +1,44 @@
 body {
+	line-height: 1.5;
+	color: black;
+}
+p, li {
 	font-family: 'Lato', 'Telex', sans-serif;
+	text-align: justify;
+	margin: 1vw 3vw;
+}
+h1, h2, h3{
+	font-family: 'Chivo', sans-serif;
+	letter-spacing: 0.01vw;
+	margin: 1.5vw 1vw;
+}
+h1 {
+	font-size: 3vw;
+	margin-bottom: 0;
+}
+h2{
+	font-size: 2vw;
+	font-style: italic;
+}
+h3{
+	font-size: 1.5vw;
+	margin-bottom: 0;
+	color: pink;
+}
+a:link{
+  text-decoration: none; 
+  color: #B7A5DF;	
+}
+a:visited { 
+  text-decoration: none; 
+  color: #D4CDDC;
+  }
+a:hover, a:focus, a:active { 
+  text-decoration: underline; 
+  color: #9685BA;
+  }
+
+
+.page-wrapper {
+
 }
