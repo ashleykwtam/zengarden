@@ -1,8 +1,11 @@
+html {
+	background: url(patternlibrarykalesalad.jpg);
+}
 body {
 	line-height: 1.5;
 	color: black;
 }
-p, li {
+p, li, footer {
 	font-family: 'Lato', 'Telex', sans-serif;
 	text-align: justify;
 	margin: 1vw 3vw;
@@ -13,12 +16,15 @@ h1, h2, h3{
 	margin: 1.5vw 1vw;
 }
 h1 {
-	font-size: 3vw;
+	font-size: 4vw;
 	margin-bottom: 0;
+	text-align: center;
 }
 h2{
-	font-size: 2vw;
+	font-size: 1.8vw;
 	font-style: italic;
+	text-align: center;
+	margin-top: 0;
 }
 h3{
 	font-size: 1.5vw;
@@ -38,7 +44,15 @@ a:hover, a:focus, a:active {
   color: #9685BA;
   }
 
-
 .page-wrapper {
+	background:white;
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;	
+	border: 1vw solid black;
+}
 
+.summary p {
+	text-align: center;
+	margin: 1vw 12vw;
 }
